@@ -1,0 +1,41 @@
+/*animation*/
+/*phone-media query*/
+@media(max-width:480px){
+    div:hover{
+        animation-name: myAnim;
+        animation-duration: 4s;
+        position: relative;
+        animation-iteration-count: 2;
+        animation-fill-mode: forwards;
+        
+    }
+    @keyframes myAnim{
+        0%{
+            background-color: white;
+            left: 0;
+            top: 0;
+        }
+        25%{
+            background-color: white;
+            left: 500px;
+            top: 0;
+        }
+        50%{
+            background-color: white;
+            left: 500px;
+            top: 400px;
+        }
+        75%{
+            background-color: white;
+            left: 0;
+            top: 400px;
+        }
+        100%{
+            background-color: black;
+            left: 0;
+            top: 0;
+        }
+        
+    }
+
+}
