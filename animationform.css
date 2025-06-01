@@ -294,7 +294,7 @@ font-style: italic;
         /* border: 2px solid hotpink; */
         background-color: white;
         color: black;
-        width: 100%;
+        width: 100vw;
         text-align: center;
         position: relative;
         top: 965px;
