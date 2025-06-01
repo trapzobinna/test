@@ -8,60 +8,288 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #3e5772;
-    position: relative;
-     height: 100%;
-     
+     margin: 0;
+     background-color: #56799e;
+     height: 100vh;
     
+    
+}
+.navbar{
+    width: 100vw;
+    backdrop-filter:blur(8px);
+    box-shadow:0px 4px 12px rgba(0,0,0,0.2);
+    /* border: 2px solid red; */
+    height: 60px;
+    /* background-color: #1c436f; */
+    background-color: rgba(28,67,111,0.85);
+    position: fixed;
+    z-index: 1000;
 }
 .logo{
     position: absolute;
     /* border: 2px solid purple; */
-    top: 20px;
-    left: 20px;
+    top: 15px;
+    left: 10px;
 }
-.container{
-    margin-top: 20px;
-    /* border: 2px solid red; */
-    width: 310px;
-    height: 950px;
-    position: absolute;
-    top: 50px;
-    left: 40px;
-    background-size: cover;
-    background-color: #56799e;
 
-    background-position: center;
-
-}
 
 .form1{
-border: 2px solid green;
-width: 280px;
+/* border: 2px solid green; */
+width: 80%;
+max-width: 480px;
 height:400px;
+border-radius: 5px;
+
 background-color: white;
 position: absolute;
-top: 20px;
-left: 13.5px;
+top: 100px;
+left: 30px;
 animation-name: myAnim;
         animation-duration: 1s;
 
 
 }
 .actlogoform1{
-    border: 2px solid red;
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 15px;
+    left: 32.5%;
+    
+}
+.welcome{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+    top: 65px;
+    left: 19%;
+    /* border: 2px solid red; */
+    width: 100%;
+    font-size: 22px;
+
+}
+.form1p1{
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 95px;
+    width: 230px;
+    font-size: 16px;
+    left:15%;
+    font-weight:500;
+    
+}
+.dont{
+    position: absolute;
+    top: 15px;
+    left: 18%;
+    width: 80%;
+}
+.create{
+    position: absolute;
+    top: 30px;
+    left: 12%;
+    width: 100%;
+}
+.register{
+    position: absolute;
+    top: 45px;
+    left: 22%;
+    width: 100%;
+
+}
+.myactaccount{
+    width: 80%;
+    height: 35px;
+    border: 2px solid #1c436f;
+    background-color: white;
+    color: #0077aa;
+    position: absolute;
+    font-weight: bolder;
+    top: 175px;
+    left: 35px;
+    cursor: pointer;
+    
+}
+.myactaccount:hover{
+    width: 80%;
+    height: 35px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 175px;
+    left: 35px;
+    cursor: pointer;
+    
+}
+.encourage{
+    /* border: 2px solid red; */
+    font-size: 20px;
+    position: absolute;
+    top: 230px;
+    left: 65px;
+    width: 100%;
+    font-weight: bold;
+    font-size: 16px;
+   
+}
+.encouragep{
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 260px;
+    width: 100%;
+    left: 35px;
+    font-family: sans-serif;
+    font-size: 11px;
+
+    /* line spacing at the bottom should be moved tpwards the right* !important*/
+}
+.encouragep2{
+    position: absolute;
+    left: 120px;
+    top: 275px;
+    font-family: sans-serif;
+    font-size: 11px;
+
+}
+.note{
+/* border: 2px solid green; */
+width: 100%;
+position: absolute;
+top: 300px;
+left: 25px;
+font-family: sans-serif;
+    font-size: 11px;
+font-style: italic;
+
+}
+.note2{
+    /* border: 2px solid red; */
+    font-size: 11px;
+    position: absolute;
+    left:65px;
+    top: 315px;
+    font-family: sans-serif;
+    font-style: italic;
+
+}
+.rednote{
+    color: red;
 }
 .form2{
-    border: 2px solid blue;
-    width: 280px;
-    height:400px;
+        width: 80%;
+        max-width: 480px;
+        height:400px;
+        border-radius: 5px;
     background-color: white;
     position: absolute;
-    top: 450px;
-    right: 13.5px;
+    top: 520px;
+    right: 48.5px;
     animation-name: myAnim2;
             animation-duration: 1s;
     }
+    .form2h1{
+        position: absolute;
+        left: 30px;
+        font-size: 22px;
+        top: 15px;
+        width: 100%;
+        font-weight: 600;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: rgb(42, 42, 42);
+    }
+.typeemail{
+    position: absolute;
+    /* border: 2px solid red; */
+    font-size: 12px;
+    top: 65px;
+    left: 30px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.forgot{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+    right: 30px;
+    top: 65px;
+}
+.forgot a{
+    color: #3677bf;
+    font-size: 11px;
+
+}
+.forgot :hover{
+    text-decoration: underline;
+    color: #1d4470;
+}
+
+.form2 input{
+    border: 0.5px solid  rgb(42, 42, 42);
+    width: 250px;
+    height: 35px;
+    position: absolute;
+    left: 30px;
+
+
+}
+.emailcont{
+    position: absolute;
+    top: 90px;
+    width: 40px;
+    
+
+}
+.typepass{
+    position: absolute;
+    /* border: 2px solid red; */
+    top: 165px;
+    left: 30px;
+    font-weight: bold;
+    font-size: 12px;
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.forgot2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+    right: 30px;
+    top: 165px;
+}
+.forgot2 a{
+    color: #3677bf;
+    font-size: 11px;
+}
+.forgot2 :hover{
+    text-decoration: underline;
+    color: #1d4470;
+}
+.passcont{
+    position: absolute;
+    top: 190px;
+}
+.access{
+    position: absolute;
+    width: 250px;
+    left: 30px;
+    height: 35px;
+    background-color: #0277a9;
+    color: white;
+    font-weight: bolder;
+    top: 255px;
+    cursor: pointer;
+    box-shadow: none;
+    border: 1px solid #1d4470;
+}
+.disclaimer{
+    background-color: #d8ecf6;
+    position: absolute;
+    font-size: 11px;
+    width: 250px;
+    left: 30px;
+    height: 80px;
+    top: 305px;
+    padding: 7px;
+}
+.astral{
+    color: #326f8f;
+}
     .footer{
         /* border: 2px solid hotpink; */
         background-color: white;
@@ -79,12 +307,12 @@ animation-name: myAnim;
     0%{
         left: -500px;
         background-color: white; 
-        top: 20px;
+        top: 100px;
     }
     100%{
         background-color: white;
-        left: 13.5px;
-        top: 20px;
+        left: 30px;
+        top: 100px;
     }
     
 }
@@ -92,12 +320,12 @@ animation-name: myAnim;
     0%{
         right: -500px;
         background-color: white; 
-        top: 450px;
+        top: 520px;
     }
     100%{
         background-color: white;
-        right: 13.5px;
-        top: 450px;
+        right: 48.5px;
+        top: 520px;
     }
     
 }
@@ -142,11 +370,25 @@ animation-name: myAnim;
     box-sizing: border-box;
 }
 body{
-     background-color: #1d4470;
+    background-color: #1c436f;
      position: relative;
      height: 100%;
      display: flex;
      flex-direction: column;
+}
+a{
+    text-decoration: none;
+}
+.navbar{
+    width: 100%;
+    /* border: 2px solid red; */
+    height: 50px;
+    background-color: #1c436f;
+    position: fixed;
+    z-index: 1000;
+    backdrop-filter:blur(8px);
+    box-shadow:0px 4px 12px rgba(0,0,0,0.2);
+    margin-top: 0px;
 }
 .logo{
     position: absolute;
@@ -168,14 +410,14 @@ body{
 }
 .form1{
 /* border: 2px solid palevioletred; */
-width: 390px;
-height:450px;
+width: 400px;
+height:460px;
 animation-name: myAnim;
         animation-duration: 1s;
 background-color: white;
 position: relative;
 left: 260px;
-top: 130px;
+top: 110px;
 border-radius: 5px;
 }
 .actlogoform1{
@@ -233,39 +475,164 @@ border-radius: 5px;
     top: 285px;
     left: 80px;
     font-weight: bold;
+   
 }
 .encouragep{
     /* border: 2px solid red; */
     position: absolute;
     top: 320px;
-    width: 320px;
+    width: 100%;
     left: 35px;
     font-family: sans-serif;
+    font-size: 14px;
+
     /* line spacing at the bottom should be moved tpwards the right* !important*/
+}
+.encouragep2{
+    position: absolute;
+    left: 120px;
+    top: 340px;
+    font-family: sans-serif;
+    font-size: 14px;
+
 }
 .note{
 /* border: 2px solid green; */
-width: 300px;
+width: 100%;
 position: absolute;
 top: 370px;
-left: 25px;
+left: 30px;
+font-family: sans-serif;
+    font-size: 14px;
+font-style: italic;
 
 }
-/* .rednote{
+.note2{
+    /* border: 2px solid red; */
+    font-size: 14px;
+    position: absolute;
+    left: 80px;
+    top: 390px;
+    font-family: sans-serif;
+    font-style: italic;
+
+}
+.rednote{
     color: red;
-} */
+}
 .form2{
     /* border: 2px solid blue; */
     border-radius: 5px;
-    width: 390px;
-    height:450px;
+    width: 400px;
+    height:460px;
     background-color: white;
     position: absolute;
-    top: 130px;
-    right: 290px;
+    top: 110px;
+    right: 270px;
     animation-name: myAnim2;
             animation-duration: 1s;
     }
+    .form2h1{
+        position: absolute;
+        left: 30px;
+        font-size: 26px;
+        top: 25px;
+        font-weight: 600;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: rgb(42, 42, 42);
+    }
+.typeemail{
+    position: absolute;
+    /* border: 2px solid red; */
+    top: 75px;
+    left: 30px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.forgot{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+    right: 30px;
+    top: 75px;
+}
+.forgot a{
+    color: #3677bf;
+    font-size: 13px;
+
+}
+.forgot :hover{
+    text-decoration: underline;
+    color: #1d4470;
+}
+
+.form2 input{
+    border: 0.5px solid  rgb(42, 42, 42);
+    width: 340px;
+    height: 35px;
+    position: absolute;
+    left: 30px;
+
+
+}
+.emailcont{
+    position: absolute;
+    top: 100px;
+
+}
+.typepass{
+    position: absolute;
+    /* border: 2px solid red; */
+    top: 175px;
+    left: 30px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.forgot2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+    right: 30px;
+    top: 175px;
+}
+.forgot2 a{
+    color: #3677bf;
+    font-size: 13px;
+}
+.forgot2 :hover{
+    text-decoration: underline;
+    color: #1d4470;
+}
+.passcont{
+    position: absolute;
+    top: 200px;
+}
+.access{
+    position: absolute;
+    width: 340px;
+    left: 30px;
+    height: 45px;
+    background-color: #0277a9;
+    color: white;
+    font-weight: bolder;
+    top: 275px;
+    cursor: pointer;
+    box-shadow: none;
+    border: 1px solid #1d4470;
+}
+.disclaimer{
+    background-color: #d8ecf6;
+    position: absolute;
+    font-size: 14px;
+    width: 340px;
+    left: 30px;
+    height: 110px;
+    top: 335px;
+    padding: 13px;
+}
+.astral{
+    color: #326f8f;
+}
+
+
 .footer{
     /* border: 2px solid hotpink; */
     background-color: white;
@@ -280,12 +647,12 @@ left: 25px;
     0%{
         left: -500px;
         background-color: white; 
-        top: 130px;
+        top: 110px;
     }
     100%{
         background-color: white;
         left: 260px;
-        top: 130px;
+        top: 110px;
     }
     
     
@@ -294,12 +661,12 @@ left: 25px;
     0%{
         right: -500px;
         background-color: white; 
-        top: 130px;
+        top: 110px;
     }
     100%{
         background-color: white;
-        right: 290px;
-        top: 130px;
+        right: 270px;
+        top: 110px;
     }
     
 }
